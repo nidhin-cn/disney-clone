@@ -217,6 +217,8 @@ const UserImg = styled.img`
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  letter-spacing: 1.5px;
+  font-size: 12px;
 `;
 
 const DropDown = styled.div`

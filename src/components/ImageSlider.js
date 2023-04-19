@@ -9,7 +9,9 @@ const ImageSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autopla: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
   };
   return (
     <Carousel {...settings}>
